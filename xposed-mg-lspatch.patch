@@ -1,0 +1,11 @@
+--- MicroGLogin-bak/app/src/main/kotlin/com/xaxaxax/microglogin/GmsRules.kt	2026-11-04 12:54:59.855453474 +0300
++++ MicroGLogin/app/src/main/kotlin/com/xaxaxax/microglogin/GmsRules.kt	2026-11-04 12:55:58.862283206 +0300
+@@ -110,7 +110,7 @@
+             return if (vendor.isEmpty() || vendor == "com.google") null else vendor + VENDOR_NAMESPACE_SUFFIX
+         }
+ 
+-        const val MICROG_RE_PACKAGE = "app.revanced.android.gms"
++        const val MICROG_RE_PACKAGE = "app.reseam.android.gms"
+         private const val GSF_PACKAGE = "com.google.android.gsf"
+         private const val VENDOR_NAMESPACE_SUFFIX = ".android.gms"
+         private val KEPT_AUTHORITIES = setOf("$GMS_PACKAGE.chimera", "$GMS_PACKAGE.fonts")
